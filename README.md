@@ -47,14 +47,14 @@ TaskTracker/
 │   ├── models/
 │   ├── routes/
 │   ├── controllers/
-│   ├── db.js
+│   ├── config
 │   ├── index.js
 │   ├── package.json
 │   └── .env
-│
+│   
 └── README.md
 
-The exact backend folder structure may vary depending on how the application is organized.
+
 
 Prerequisites
 
@@ -285,7 +285,3 @@ git commit -m "Update task tracker"
 git push
 
 Make sure sensitive files such as .env and dependency folders such as node_modules are excluded through .gitignore.
-
-License
-
-This project is currently not published under a specific open-source license.
